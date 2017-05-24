@@ -1,8 +1,7 @@
 .container {
   width: 16rem; }
   .container > header {
-    height: 7.15rem;
-    background: #0074d9; }
+    height: 7.15rem; }
     .container > header .top {
       padding: 1.1rem 0.4rem;
       display: flex; }
@@ -24,5 +23,26 @@
         padding-left: 1.65rem;
         flex: 1;
         height: 1.4rem; }
+    .container > header .carousel {
+      position: absolute;
+      width: 16rem;
+      height: 7.15rem;
+      z-index: -1; }
+      .container > header .carousel .pictures > img {
+        position: absolute;
+        width: 16rem;
+        height: 7.15rem; }
+      .container > header .carousel .bars {
+        position: absolute;
+        bottom: 0.325rem;
+        display: flex;
+        width: 100%;
+        justify-content: center; }
+        .container > header .carousel .bars span {
+          width: .3rem;
+          height: .3rem;
+          border-radius: .15rem;
+          margin: .2rem;
+          border: 0.075rem solid white; }
 
 /*# sourceMappingURL=index.css.map */

@@ -2,7 +2,6 @@
   width: 16rem;
   >header {
     height: 7.15rem;
-    background: rgba(0,116,217,1);
     .top {
       padding: 1.1rem 0.4rem;
       display: flex;
@@ -25,6 +24,31 @@
         padding-left: 1.65rem;
         flex: 1;
         height: 1.4rem;
+      }
+    }
+    .carousel {
+      position: absolute;
+      width: 16rem;
+      height: 7.15rem;
+      z-index: -1;
+      .pictures>img {
+        position: absolute;
+        width: 16rem;
+        height: 7.15rem;
+      }
+      .bars {
+        position: absolute;
+        bottom: 0.325rem;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        span {
+          width: .3rem;
+          height: .3rem;
+          border-radius: .15rem;
+          margin: .2rem;
+          border: 0.075rem solid white;
+        }
       }
     }
   }

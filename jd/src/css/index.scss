@@ -1,21 +1,30 @@
 .container {
-  width: 64rem;
+  width: 16rem;
   >header {
+    height: 7.15rem;
+    background: rgba(0,116,217,1);
     .top {
-      
+      padding: 1.1rem 0.4rem;
       display: flex;
+      .bar {
+        width: 1.25rem;
+        display: flex;
+        flex-flow: row wrap;
+        color: #fff;
+        justify-content: center;
+        span {font-size: .4rem;}
+      }
       i {
-        font-size: 3.2rem;
-        padding: 0 2.4rem;
+        font-size: 0.85rem;
       }
       input {
-        border: 1px solid red;
-        border-radius: 2.8rem;
+        margin: 0 0.25rem;
+        border-radius: 0.7rem;
         outline: none;
-        font-size: 3rem;
-        padding: 0 1rem;
+        font-size: .525rem;
+        padding-left: 1.65rem;
         flex: 1;
-        height: 5.6rem;
+        height: 1.4rem;
       }
     }
   }

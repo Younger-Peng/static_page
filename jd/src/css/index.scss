@@ -1,0 +1,22 @@
+.container {
+  width: 64rem;
+  >header {
+    .top {
+      
+      display: flex;
+      i {
+        font-size: 3.2rem;
+        padding: 0 2.4rem;
+      }
+      input {
+        border: 1px solid red;
+        border-radius: 2.8rem;
+        outline: none;
+        font-size: 3rem;
+        padding: 0 1rem;
+        flex: 1;
+        height: 5.6rem;
+      }
+    }
+  }
+}

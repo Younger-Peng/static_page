@@ -47,7 +47,8 @@
           border: 0.075rem solid white; }
   .container main {
     height: calc(100vh - 7.15rem);
-    background: #f3f3f3; }
+    background: #f3f3f3;
+    overflow: auto; }
     .container main .life ul {
       padding: 0.4rem 0;
       display: flex;
@@ -72,7 +73,7 @@
       background: #fff;
       display: flex;
       align-items: center;
-      margin: 0 0.575rem;
+      margin: 0 0.575rem 0.4rem 0.575rem;
       padding: 0 0.45rem; }
       .container main .news .newspic {
         height: 0.7rem; }
@@ -97,6 +98,47 @@
         font-size: 0.55rem; }
         .container main .news a.more {
           padding-left: 0.5rem; }
+    .container main .seckill {
+      height: 6.7rem;
+      border-bottom: 2px solid #f7f7f7;
+      background: #fff; }
+      .container main .seckill i {
+        font-size: 0.65rem;
+        line-height: 1.525rem; }
+      .container main .seckill .wrap {
+        height: 1.525rem;
+        display: flex;
+        align-items: center;
+        padding: 0 0.4rem; }
+        .container main .seckill .wrap .redclock {
+          color: red; }
+          .container main .seckill .wrap .redclock span {
+            font-size: 0.65rem;
+            margin: 0 0.25rem;
+            line-height: 1.525rem; }
+        .container main .seckill .wrap .part {
+          font-weight: bold;
+          line-height: 1.525rem;
+          font-size: 0.575rem;
+          margin: 0 0.25rem; }
+        .container main .seckill .wrap .timeleft {
+          display: flex;
+          align-items: center;
+          font-size: 0.4rem; }
+          .container main .seckill .wrap .timeleft span {
+            font-size: 0.4rem;
+            display: inline-block;
+            color: #fff;
+            background: #333;
+            padding: 0.1rem 0.15rem;
+            border-radius: 0.1rem; }
+          .container main .seckill .wrap .timeleft strong {
+            margin: 0 0.1rem; }
+        .container main .seckill .wrap .more {
+          flex: 1;
+          text-align: right;
+          color: red;
+          font-size: 0.65rem; }
   .container footer {
     height: 2.15rem;
     position: absolute;

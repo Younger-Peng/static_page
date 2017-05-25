@@ -164,6 +164,23 @@
             color: #ccc; }
             .container main .seckill .content > ul li h3 span {
               font-size: 0.45rem; }
+    .container main .ads img {
+      width: 16rem; }
+    .container main .standard .title {
+      text-align: center;
+      font-size: 0.75rem;
+      height: 1.7rem;
+      line-height: 1.7rem;
+      background: url(../imgs/tit1.png) no-repeat center center;
+      background-size: cover; }
+    .container main .standard .half-goods {
+      display: flex;
+      flex-flow: row wrap; }
+      .container main .standard .half-goods .goods {
+        width: 8rem;
+        height: 5.15rem;
+        background: yellow;
+        border: 1px solid blue; }
   .container footer {
     height: 2.15rem;
     position: absolute;

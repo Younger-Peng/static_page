@@ -117,7 +117,7 @@
     }
     .seckill {
       height: 6.7rem;
-      border-bottom: 2px solid rgba(247,247,247,1);
+      border-bottom: 2px solid #e2e2e2;
       background: #fff;
       i {
         font-size: 0.65rem;
@@ -161,6 +161,34 @@
           text-align: right;
           color: red;
           font-size: 0.65rem;
+        }
+      }
+      .content>ul {
+        width: 16rem;
+        height: 5.175rem;
+        font-size: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        li {
+          display: inline-block;
+          width: 3.25rem;
+          text-align: center;
+          img {
+            width: 3.25rem;
+            height: 3.25rem;
+          }
+          h2 {
+            margin: 0.375rem 0 0.15rem 0;
+            color: red;
+            font-size: 0.75rem;
+            span {font-size: 0.5rem;}
+          }
+          h3 {
+            text-decoration: line-through;
+            font-size: 0.55rem;
+            color: #ccc;
+            span { font-size: 0.45rem;}
+          }
         }
       }
     }

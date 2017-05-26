@@ -185,22 +185,24 @@
       .container main .standard .half-goods .goods {
         position: relative;
         width: 8rem;
-        height: 5rem;
+        height: 5.15rem;
         display: flex; }
         .container main .standard .half-goods .goods:before {
           content: '';
           position: absolute;
+          left: 0;
           bottom: 0;
           width: 8rem;
           height: 1px;
-          background: #f0f0f0; }
+          background: #9e9e9e; }
         .container main .standard .half-goods .goods:after {
           content: '';
           position: absolute;
+          top: 0;
           right: -1px;
           width: 1px;
           height: 5.15rem;
-          background: #f0f0f0; }
+          background: #9e9e9e; }
         .container main .standard .half-goods .goods .text {
           width: 55.5%;
           padding: 0.325rem 0 0 0.325rem;
@@ -228,18 +230,29 @@
             width: 100%; }
     .container main .standard .quarter-goods {
       display: flex;
-      flex-flow: row nowrap; }
+      flex-flow: row nowrap;
+      background: white; }
       .container main .standard .quarter-goods .goods {
         width: 4rem;
-        height: 5rem;
-        padding: 0.35rem;
-        background: red; }
+        height: 5.15rem;
+        padding: 0.3rem;
+        position: relative; }
+        .container main .standard .quarter-goods .goods:after {
+          content: '';
+          position: absolute;
+          top: 0;
+          right: -1px;
+          width: 1px;
+          height: 5.15rem;
+          background: #9e9e9e; }
         .container main .standard .quarter-goods .goods strong {
           font-size: 0.75rem; }
         .container main .standard .quarter-goods .goods p {
-          font-size: 0.6rem;
+          font-size: 0.55rem;
           color: #686868;
           margin: 0.2rem 0 0.1rem 0; }
+        .container main .standard .quarter-goods .goods .pic img {
+          width: 100%; }
   .container footer {
     height: 2.15rem;
     position: fixed;

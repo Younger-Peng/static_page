@@ -21,6 +21,12 @@
       i {
         font-size: 0.85rem;
       }
+      .icon-search{
+        position: absolute;
+        top: 0.5rem;
+        left: 2.4rem;
+        color: #ccc;
+      }
       input {
         margin: 0 0.25rem;
         border-radius: 0.7rem;
@@ -342,6 +348,7 @@
         }
       }
       .description {
+        padding: 0 0.25rem;
         height: 1.75rem;
         font-size: 0.55rem;
         line-height: 0.825rem;
@@ -353,6 +360,7 @@
 
       }
       .price-info {
+        padding: 0 0.25rem;
         vertical-align: middle;
         height: 1.1rem;
         margin-bottom: 0.25rem;

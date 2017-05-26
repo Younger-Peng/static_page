@@ -20,6 +20,11 @@
         font-size: .4rem; }
     .container .top i {
       font-size: 0.85rem; }
+    .container .top .icon-search {
+      position: absolute;
+      top: 0.5rem;
+      left: 2.4rem;
+      color: #ccc; }
     .container .top input {
       margin: 0 0.25rem;
       border-radius: 0.7rem;
@@ -283,6 +288,7 @@
         height: 7.9rem;
         background: red; }
       .container .loadmore .half .description {
+        padding: 0 0.25rem;
         height: 1.75rem;
         font-size: 0.55rem;
         line-height: 0.825rem;
@@ -292,6 +298,7 @@
         overflow: hidden;
         text-overflow: ellipsis; }
       .container .loadmore .half .price-info {
+        padding: 0 0.25rem;
         vertical-align: middle;
         height: 1.1rem;
         margin-bottom: 0.25rem;

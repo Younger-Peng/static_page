@@ -12,6 +12,23 @@
     if(n>0.9) n = 0.9;
     document.querySelector('.top').style.background = 'rgba(255,0,0,'+ n +')'
   })
+
+})();
+
+(function(){
+  let longpic = document.querySelector('.longpic')
+  let ox;
+  let startX;
+  longpic.addEventListener('touchstart', function(e){
+    startX = e.touches[0].clientX
+    ox = getComputedStyle(this).marginLeft
+    ox = parseInt(ox.slice(0,ox.length-2));
+  })
+  longpic.addEventListener('touchmove', function(e){
+    let cx = e.touches[0].clientX
+    x = cx - startX + ox;
+    this.style.marginLeft = x +'px';
+  })
 })()
 
 

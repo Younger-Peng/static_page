@@ -272,13 +272,39 @@
     display: flex;
     width: 16rem;
     flex-flow: row wrap;
-    justify-content: space-between;
-    background: green; }
+    justify-content: space-between; }
     .container .loadmore .half {
       width: 7.9rem;
       height: 11rem;
-      margin-bottom: 0.15rem;
-      background: yellow; }
+      margin-bottom: 0.15rem; }
+      .container .loadmore .half .pic {
+        height: 7.9rem;
+        background: red; }
+      .container .loadmore .half .description {
+        height: 1.75rem;
+        font-size: 0.55rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+      .container .loadmore .half .price-info {
+        vertical-align: middle;
+        height: 1.1rem;
+        margin-bottom: 0.25rem; }
+        .container .loadmore .half .price-info span {
+          font-size: 0.45rem; }
+        .container .loadmore .half .price-info strong {
+          font-size: 0.55rem; }
+        .container .loadmore .half .price-info a > button {
+          float: right;
+          border: 1px solid black;
+          border-radius: 0.25em;
+          height: 100%;
+          background: transparent;
+          outline: none;
+          width: 2.175rem;
+          font-size: 0.5rem; }
+  .container .empty {
+    height: 2.15rem; }
   .container footer {
     height: 2.15rem;
     position: fixed;

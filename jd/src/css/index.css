@@ -22,6 +22,7 @@
     .container .top input {
       margin: 0 0.25rem;
       border-radius: 0.7rem;
+      border-style: none;
       outline: none;
       font-size: .525rem;
       padding-left: 1.65rem;
@@ -52,7 +53,6 @@
           border: 0.075rem solid white; }
   .container main {
     background: #f3f3f3;
-    height: 100rem;
     overflow: auto; }
     .container main .life ul {
       padding: 0.4rem 0;
@@ -268,6 +268,17 @@
           .container main .ads-carousel .ads-slide ul li img {
             margin: 0 0.375rem;
             width: 15.25rem; }
+  .container .loadmore {
+    display: flex;
+    width: 16rem;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background: green; }
+    .container .loadmore .half {
+      width: 7.9rem;
+      height: 11rem;
+      margin-bottom: 0.15rem;
+      background: yellow; }
   .container footer {
     height: 2.15rem;
     position: fixed;

@@ -23,6 +23,7 @@
       input {
         margin: 0 0.25rem;
         border-radius: 0.7rem;
+        border-style: none;
         outline: none;
         font-size: .525rem;
         padding-left: 1.65rem;
@@ -60,7 +61,6 @@
   }
   main {
     background: rgba(243,243,243,1);
-    height: 100rem;
     overflow: auto;
     .life {
       ul {
@@ -321,6 +321,19 @@
           }
         }
       }
+    }
+  }
+  .loadmore {
+    display: flex;
+    width: 16rem;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background: green;
+    .half {
+      width: 7.9rem;
+      height: 11rem;
+      margin-bottom: 0.15rem;
+      background: yellow;
     }
   }
   footer {

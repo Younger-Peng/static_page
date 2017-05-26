@@ -27,6 +27,8 @@
   longpic.addEventListener('touchmove', function(e){
     let cx = e.touches[0].clientX
     x = cx - startX + ox;
+    if(x > 16 * rem) x = 16 * rem;
+    if(x < -32 * rem) x = -32 * rem;
     this.style.marginLeft = x +'px';
   })
 })()

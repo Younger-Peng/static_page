@@ -60,6 +60,7 @@
   }
   main {
     background: rgba(243,243,243,1);
+    height: 100rem;
     overflow: auto;
     .life {
       ul {
@@ -213,18 +214,83 @@
       .half-goods {
         display: flex;
         flex-flow: row wrap;
+        background: #fff;
         .goods {
+          position: relative;
           width: 8rem;
-          height: 5.15rem;
-          background: yellow;
-          border: 1px solid blue;
+          height: 5rem;
+          display: flex;
+          &:before {
+            content: '';
+            position: absolute;
+            bottom:0;
+            width: 8rem;
+            height: 1px;
+            background: #f0f0f0;
+          }
+          &:after {
+            content: '';
+            position: absolute;
+            right:-1px;
+            width: 1px;
+            height: 5.15rem;
+            background: #f0f0f0;
+          }
+          .text {
+            width: 55.5%;
+            padding: 0.325rem 0 0 0.325rem;
+            font-size: 0;
+            strong{font-size: 0.75rem;}
+            p{
+              font-size: 0.6rem;
+              color: #686868;
+              margin: 0.2rem 0 0.1rem 0;
+              }
+            span{
+              font-size: 0.6rem;
+              padding: 0 .1rem;
+              color: white;
+              background: #ff4a7d;
+            }
+          }
+          .pic {
+            padding: 0.325rem 0.325rem 0 0;
+            width: 44.5%;
+            height: 100%;
+            overflow: hidden;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: flex-end;
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+      .quarter-goods{
+        display: flex;
+        flex-flow: row nowrap;
+        .goods {
+          width: 4rem;
+          height: 5rem;
+          padding: 0.35rem;
+          background: red;
+          strong{font-size: 0.75rem;}
+          p{
+            font-size: 0.6rem;
+            color: #686868;
+            margin: 0.2rem 0 0.1rem 0;
+          }
+          img{
+            
+          }
         }
       }
     }
   }
   footer {
     height: 2.15rem;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     display: flex;
     background: #fff;

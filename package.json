@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "gp": "npm run pc git push origin master",
     "pc": "proxychains4 -f ~/.proxychains.conf",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

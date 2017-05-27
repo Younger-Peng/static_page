@@ -243,6 +243,7 @@
         flex-flow: row nowrap;
         background: white; }
         .container main .standard .quarter-goods .goods {
+          font-size: 0;
           width: 4rem;
           height: 5.15rem;
           padding: 0.3rem;

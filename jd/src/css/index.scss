@@ -336,13 +336,15 @@
     width: 16rem;
     flex-flow: row wrap;
     justify-content: space-between;
+    background: #f3f3f3;
     .half {
       width: 7.9rem;
       height: 11rem;
       margin-bottom: 0.15rem;
+      background: white;
       .pic {
         height: 7.9rem;
-        background: red;
+        background: white;
         img {
           
         }

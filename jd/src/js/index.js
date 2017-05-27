@@ -13,6 +13,19 @@
     document.querySelector('.top').style.background = 'rgba(255,0,0,'+ n +')'
   })
 
+  window.addEventListener('scroll', function(e){
+    const emptyBox = document.querySelector('.empty');
+    let scrollTop = document.body.scrollTop
+    const windowHeight = window.innerHeight;
+    let offsetTop = emptyBox.offsetTop;
+    const selfHeight = parseInt(getComputedStyle(emptyBox).height);
+    let pos = offsetTop - scrollTop - windowHeight + selfHeight;
+    console.log(pos);
+    if(pos <= 0) {
+      waterfall();
+    }
+  })
+
 })();
 
 (function(){
@@ -31,7 +44,41 @@
     if(x < -32 * rem) x = -32 * rem;
     this.style.marginLeft = x +'px';
   })
-})()
+})();
 
+function getImgUrls(num){
+  var height = 7.9 * rem
+  var width = 7.9 * rem;
+  var color,urls = []
+  for(var i=0;i<num;i++){
+    color = Math.random().toString(16).substring(2,8)
+    urls.push("http://placehold.it/" + width + "x" + height + "/" + color + "/fff")
+  }
+  return urls
+}
 
+function waterfall(){
+  let container = document.querySelector('.loadmore');
+  let templateArr = [];
+  var urls = getImgUrls(10);
+  urls.forEach((url) => {
+    let template = `
+    <section class="half">
+        <div class="pic">
+          <img src="${url}" alt="">
+        </div>
+        <p class="description">文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述</p>
+        <div class="price-info">
+          <span>￥</span><strong>34.</strong><span>99</span>
+          <a href="#"><button>看相似</button></a>
+        </div>
+      </section>
+  `;
+    templateArr.push(template)
+  })
+
+  templateArr.forEach((template) => {
+    container.innerHTML += template;
+  })
+};
 

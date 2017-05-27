@@ -267,15 +267,15 @@
             }
           }
           .pic {
-            padding: 0.325rem 0.325rem 0 0;
+            padding: 0.325rem 0 0.3rem 0;
             width: 44.5%;
             height: 100%;
             overflow: hidden;
-            display: flex;
-            flex-flow: column wrap;
-            justify-content: flex-end;
+            text-align: center;
             img {
-              width: 100%;
+              width: auto;
+              height: 100%; 
+              
             }
           }
         }
@@ -421,6 +421,20 @@
           font-size: 0.5rem;
         }
       }
+    }
+  }
+  .fixedelements {
+    >a{
+      position: fixed;
+    }
+    .movie {
+      width: 3.2rem;
+      height: 3.2rem;
+      top: 50%;
+      right: -1.6rem;
+      background: url(../imgs/movie.jpg) no-repeat center center;
+      background-size: cover;
+      transition: .2s all ease;
     }
   }
   .empty {

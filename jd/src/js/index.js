@@ -25,6 +25,10 @@
     }
   })
 
+  document.querySelector('.movie').addEventListener('click', function(e){
+    this.style.right = 0
+  })
+    
 })();
 
 (function(){

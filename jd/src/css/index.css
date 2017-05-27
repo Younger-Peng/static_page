@@ -226,7 +226,7 @@
               margin: 0.2rem 0 0.1rem 0; }
             .container main .standard .half-goods .goods .text span {
               font-size: 0.6rem;
-              padding: 0 .1rem;
+              padding: 0.05rem .1rem;
               color: white;
               background: #ff4a7d; }
           .container main .standard .half-goods .goods .pic {
@@ -247,6 +247,14 @@
           height: 5.15rem;
           padding: 0.3rem;
           position: relative; }
+          .container main .standard .quarter-goods .goods:before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 4rem;
+            height: 1px;
+            background: #ccc; }
           .container main .standard .quarter-goods .goods:after {
             content: '';
             position: absolute;
@@ -263,6 +271,10 @@
             margin: 0.2rem 0 0.1rem 0; }
           .container main .standard .quarter-goods .goods .pic img {
             width: 100%; }
+      .container main .standard .quarter-goods > .goods:last-child:after {
+        width: 0; }
+      .container main .standard .half-goods > .goods:nth-child(even):after {
+        width: 0; }
     .container main .enjoybrand span {
       background: #952dff !important; }
     .container main .ads-carousel {

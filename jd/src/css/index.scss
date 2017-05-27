@@ -261,7 +261,7 @@
               }
             span{
               font-size: 0.6rem;
-              padding: 0 .1rem;
+              padding: 0.05rem .1rem;
               color: white;
               background: #ff4a7d;
             }
@@ -289,6 +289,15 @@
           height: 5.15rem;
           padding: 0.3rem;
           position: relative;
+          &:before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left:0;
+            width:  4rem;
+            height: 1px;
+            background: #ccc;
+          }
           &:after {
             content: '';
             position: absolute;
@@ -309,6 +318,17 @@
               width: 100%;
             }
           }
+        }
+      }
+      // 最后一个元素的不设置右边框
+      .quarter-goods>.goods:last-child {
+        &:after {
+          width: 0;
+        }
+      }
+      .half-goods>.goods:nth-child(even) {
+        &:after {
+          width: 0;
         }
       }
     }

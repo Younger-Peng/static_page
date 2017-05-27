@@ -20,7 +20,6 @@
     let offsetTop = emptyBox.offsetTop;
     const selfHeight = parseInt(getComputedStyle(emptyBox).height);
     let pos = offsetTop - scrollTop - windowHeight + selfHeight;
-    console.log(pos);
     if(pos <= 0) {
       waterfall();
     }
@@ -61,15 +60,18 @@ function waterfall(){
   let container = document.querySelector('.loadmore');
   let templateArr = [];
   var urls = getImgUrls(10);
+  let floatArr = ['00',10,30,50,60,70,80,99];
   urls.forEach((url) => {
+    let priceInt = 40 + Math.floor(Math.random()*60);
+    let priceFloat = floatArr[Math.floor(Math.random()*floatArr.length)];
     let template = `
     <section class="half">
         <div class="pic">
-          <img src="${url}" alt="">
+          <img src="${url}" alt="randomImg">
         </div>
         <p class="description">文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述</p>
         <div class="price-info">
-          <span>￥</span><strong>34.</strong><span>99</span>
+          <span>￥</span><strong>${priceInt}</strong><span>.${priceFloat}</span>
           <a href="#"><button>看相似</button></a>
         </div>
       </section>

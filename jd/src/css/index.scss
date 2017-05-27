@@ -211,10 +211,13 @@
       }
     }
     .standard {
+      display: flex;
+      flex-flow: row wrap;
       .title{
         text-align: center;
         font-size: 0.75rem;
         height: 1.7rem;
+        width: 16rem;
         line-height: 1.7rem;
         background: url(../imgs/tit1.png) no-repeat center center;
         background-size: cover;

@@ -247,8 +247,7 @@
           width: 4rem;
           height: 5.15rem;
           padding: 0.3rem;
-          position: relative;
-          overflow: hidden; }
+          position: relative; }
           .container main .standard .quarter-goods .goods:before {
             content: '';
             position: absolute;

@@ -1,10 +1,10 @@
 
 @font-face {font-family: "iconfont";
-  src: url('iconfont.eot?t=1495794510300'); /* IE9*/
-  src: url('iconfont.eot?t=1495794510300#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('iconfont.woff?t=1495794510300') format('woff'), /* chrome, firefox */
-  url('iconfont.ttf?t=1495794510300') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('iconfont.svg?t=1495794510300#iconfont') format('svg'); /* iOS 4.1- */
+  src: url('iconfont.eot?t=1495858834836'); /* IE9*/
+  src: url('iconfont.eot?t=1495858834836#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1495858834836') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1495858834836') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1495858834836#iconfont') format('svg'); /* iOS 4.1- */
 }
 
 .iconfont {
@@ -32,6 +32,8 @@
 .icon-iconfontgouwuche:before { content: "\e600"; }
 
 .icon-faxian:before { content: "\e7f9"; }
+
+.icon-up:before { content: "\e6b9"; }
 
 .icon-tuijian:before { content: "\e622"; }
 

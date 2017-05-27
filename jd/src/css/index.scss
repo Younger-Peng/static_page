@@ -308,7 +308,10 @@
             height: 5.15rem;
             background: #ccc;
           }
-          strong{font-size: 0.75rem;}
+          strong{
+            font-size: 0.75rem;
+            line-height: 0.9rem;
+          }
           p{
             font-size: 0.55rem;
             color: #686868;

@@ -265,7 +265,8 @@
             height: 5.15rem;
             background: #ccc; }
           .container main .standard .quarter-goods .goods strong {
-            font-size: 0.75rem; }
+            font-size: 0.75rem;
+            line-height: 0.9rem; }
           .container main .standard .quarter-goods .goods p {
             font-size: 0.55rem;
             color: #686868;

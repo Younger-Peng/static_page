@@ -25,7 +25,7 @@
     }
   })
 
-  document.querySelector('.movie').addEventListener('click', function(e){
+  document.querySelector('.movie').addEventListener('touchstart', function(e){
     this.style.right = 0
   })
     

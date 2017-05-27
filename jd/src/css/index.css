@@ -269,8 +269,10 @@
             font-size: 0.55rem;
             color: #686868;
             margin: 0.2rem 0 0.1rem 0; }
-          .container main .standard .quarter-goods .goods .pic img {
-            width: 100%; }
+          .container main .standard .quarter-goods .goods .pic {
+            overflow: hidden; }
+            .container main .standard .quarter-goods .goods .pic img {
+              width: 100%; }
       .container main .standard .quarter-goods > .goods:last-child:after {
         width: 0; }
       .container main .standard .half-goods > .goods:nth-child(even):after {

@@ -260,6 +260,8 @@
           margin: 0.2rem 0 0.1rem 0; }
         .container main .standard .quarter-goods .goods .pic img {
           width: 100%; }
+    .container main .enjoybrand span {
+      background: #952dff !important; }
     .container main .ads-carousel {
       width: 16rem;
       height: 3.875rem;

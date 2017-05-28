@@ -19,20 +19,25 @@ body {
   body > div {
     margin-bottom: 30px; }
     body > div > .container {
+      height: 100%;
       margin: 0 auto; }
 
 @media (max-width: 1205px) {
   body > div > .container {
     width: 990px;
-    background: yellow; }
-    body > div > .container > .middle {
-      width: 590px; }
-    body > div > .container > .content > section:nth-child(5) {
+    background: #c0ffff; }
+  body > .banner .middle {
+    width: 590px; }
+  body > .seckill .content > section:nth-child(5) {
+    display: none; }
+  body > .discover .goods {
+    width: 190px !important; }
+    body > .discover .goods .content:after {
       display: none; } }
 @media (min-width: 1205px) {
   body > div > .container {
     width: 1190px;
-    background: green; }
+    background: #fff3bc; }
     body > div > .container > .middle {
       width: 790px; } }
 

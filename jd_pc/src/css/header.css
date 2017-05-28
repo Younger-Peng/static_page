@@ -7,27 +7,22 @@ header {
 
 .seckill {
   height: 305px;
-  margin-bottom: 30px;
   background: #999; }
 
 .discover {
   height: 444px;
-  margin-bottom: 30px;
   background: #ccc; }
 
 .lottery {
   height: 215px;
-  margin-bottom: 30px;
   background: #999; }
 
 .fullwidth {
   height: 100px;
-  margin-bottom: 30px;
   background: #ccc; }
 
 .enjoyfeature {
   height: 585px;
-  margin-bottom: 30px;
   background: #999; }
 
 /*# sourceMappingURL=header.css.map */

@@ -24,10 +24,14 @@ body {
 @media (max-width: 1205px) {
   body > div > .container {
     width: 990px;
-    background: yellow; } }
+    background: yellow; }
+    body > div > .container > .middle {
+      width: 590px; } }
 @media (min-width: 1205px) {
   body > div > .container {
     width: 1190px;
-    background: green; } }
+    background: green; }
+    body > div > .container > .middle {
+      width: 790px; } }
 
 /*# sourceMappingURL=reset.css.map */

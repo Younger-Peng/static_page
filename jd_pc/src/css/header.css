@@ -2,6 +2,27 @@
   height: 480px;
   margin-bottom: 10px;
   background: #ccc; }
+  .banner .container {
+    display: flex;
+    justify-content: space-between; }
+    .banner .container .side {
+      width: 190px;
+      height: 480px;
+      background: #777; }
+    .banner .container .middle {
+      height: 480px;
+      display: flex;
+      justify-content: space-between;
+      flex-flow: row wrap; }
+      .banner .container .middle .carousel {
+        width: 100%;
+        height: 340px;
+        margin-bottom: 10px;
+        background: #777; }
+      .banner .container .middle .half {
+        width: calc(50% - 5px);
+        height: 130px;
+        background: #ccc; }
 
 .seckill {
   height: 305px;

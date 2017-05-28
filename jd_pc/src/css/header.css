@@ -27,6 +27,20 @@
 .seckill {
   height: 305px;
   background: #999; }
+  .seckill .title {
+    height: 55px;
+    background: red; }
+  .seckill .content {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 12px 0 13px 0;
+    justify-content: space-between; }
+    .seckill .content section {
+      position: relative;
+      flex: 1;
+      height: 225px;
+      background: #777;
+      border-right: 1px solid #e7e7e7; }
 
 .discover {
   height: 444px;

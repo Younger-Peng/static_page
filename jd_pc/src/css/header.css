@@ -1,96 +1,119 @@
 .banner {
   height: 480px;
   margin-bottom: 10px;
-  background: #ccc; }
-  .banner .container {
-    display: flex;
-    justify-content: space-between; }
-    .banner .container .side {
-      width: 190px;
-      height: 480px;
-      background: #777; }
-    .banner .container .middle {
-      height: 480px;
-      display: flex;
-      justify-content: space-between;
-      flex-flow: row wrap; }
-      .banner .container .middle .carousel {
-        width: 100%;
-        height: 340px;
-        margin-bottom: 10px;
-        background: #777; }
-      .banner .container .middle .half {
-        width: calc(50% - 5px);
-        height: 130px;
-        background: #ccc; }
+  background: #ccc;
+}
+.banner .container {
+  display: flex;
+  justify-content: space-between;
+}
+.banner .container .side {
+  width: 190px;
+  height: 480px;
+  background: #777;
+}
+.banner .container .middle {
+  height: 480px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+.banner .container .middle .carousel {
+  width: 100%;
+  height: 340px;
+  margin-bottom: 10px;
+  background: #777;
+}
+.banner .container .middle .half {
+  width: calc(50% - 5px);
+  height: 130px;
+  background: #ccc;
+}
 
 .seckill {
   height: 305px;
-  background: #999; }
-  .seckill .title {
-    height: 55px;
-    background: red; }
-  .seckill .content {
-    display: flex;
-    flex-flow: row nowrap;
-    padding: 12px 0 13px 0;
-    justify-content: space-between; }
-    .seckill .content section {
-      position: relative;
-      flex: 1;
-      height: 225px;
-      background: #777;
-      border-right: 1px solid #e7e7e7; }
+  background: #999;
+}
+.seckill .title {
+  height: 55px;
+  background: red;
+}
+.seckill .content {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 12px 0 13px 0;
+  justify-content: space-between;
+}
+.seckill .content section {
+  position: relative;
+  flex: 1;
+  height: 225px;
+  background: #777;
+  border-right: 1px solid #e7e7e7;
+}
 
 .discover {
   height: 444px;
-  background: #ccc; }
-  .discover .container {
-    display: flex;
-    justify-content: space-between; }
-    .discover .container section {
-      width: 390px;
-      height: 100%; }
-      .discover .container section .title {
-        width: 100%;
-        height: 55px;
-        background: #bbb; }
-      .discover .container section .content {
-        width: 390px;
-        height: 389px;
-        padding: 10px; }
-    .discover .container .goods {
-      display: flex;
-      flex-flow: row wrap; }
-      .discover .container .goods .title {
-        background: #4998a1; }
-      .discover .container .goods .content {
-        position: relative;
-        display: flex;
-        flex-flow: row wrap;
-        overflow: hidden; }
-        .discover .container .goods .content .box {
-          width: 185px;
-          height: 120px;
-          border-bottom: 1px solid #e7e7e7; }
-        .discover .container .goods .content:after {
-          position: absolute;
-          left: 50%;
-          content: '';
-          width: 1px;
-          height: 369px;
-          background: red; }
+  background: #ccc;
+}
+.discover .container {
+  display: flex;
+  justify-content: space-between;
+}
+.discover .container section {
+  width: 390px;
+  height: 100%;
+}
+.discover .container section .title {
+  width: 100%;
+  height: 55px;
+  background: #bbb;
+}
+.discover .container section .content {
+  width: 390px;
+  height: 389px;
+  padding: 10px;
+}
+.discover .container .goods {
+  display: flex;
+  flex-flow: row wrap;
+}
+.discover .container .goods .title {
+  background: #4998a1;
+}
+.discover .container .goods .content {
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  overflow: hidden;
+}
+.discover .container .goods .content .box {
+  width: 185px;
+  height: 120px;
+  border-bottom: 1px solid #e7e7e7;
+}
+.discover .container .goods .content:after {
+  position: absolute;
+  left: 50%;
+  content: '';
+  width: 1px;
+  height: 369px;
+  background: red;
+}
 
 .lottery {
   height: 215px;
-  background: #999; }
+  background: #999;
+}
 
 .fullwidth {
   height: 100px;
-  background: #ccc; }
+  background: #ccc;
+}
 
 .enjoyfeature {
   height: 585px;
-  background: #999; }
+  background: #999;
+}
 
 /*# sourceMappingURL=header.css.map */

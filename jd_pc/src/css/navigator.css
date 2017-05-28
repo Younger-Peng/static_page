@@ -1,42 +1,54 @@
 .top {
   background: #e3e4e5;
-  margin-bottom: 0; }
-  .top .container {
-    height: 30px;
-    display: flex;
-    line-height: 30px;
-    color: #999; }
-    .top .container i {
-      font-size: 13px; }
-    .top .container .left {
-      flex: 1;
-      padding-left: 200px; }
-      .top .container .left i {
-        color: red; }
-    .top .container .right {
-      display: flex; }
-      .top .container .right li {
-        position: relative;
-        margin: 0 12px; }
-        .top .container .right li:before {
-          position: absolute;
-          content: '';
-          width: 1px;
-          height: 13px;
-          background: red;
-          top: 8px;
-          left: -12px; }
-        .top .container .right li:first-child:before {
-          display: none; }
-        .top .container .right li a {
-          color: #999;
-          font-size: 13px; }
-          .top .container .right li a:hover {
-            color: #c81623; }
+  margin-bottom: 0;
+}
+.top .container {
+  height: 30px;
+  display: flex;
+  line-height: 30px;
+  color: #999;
+}
+.top .container i {
+  font-size: 13px;
+}
+.top .container .left {
+  flex: 1;
+  padding-left: 200px;
+}
+.top .container .left i {
+  color: red;
+}
+.top .container .right {
+  display: flex;
+}
+.top .container .right li {
+  position: relative;
+  margin: 0 12px;
+}
+.top .container .right li:before {
+  position: absolute;
+  content: '';
+  width: 1px;
+  height: 13px;
+  background: red;
+  top: 8px;
+  left: -12px;
+}
+.top .container .right li:first-child:before {
+  display: none;
+}
+.top .container .right li a {
+  color: #999;
+  font-size: 13px;
+}
+.top .container .right li a:hover {
+  color: #c81623;
+}
 
 .second {
   height: 140px;
   margin-bottom: 0;
-  background: #999; }
+  background: #999;
+}
 
 /*# sourceMappingURL=navigator.css.map */

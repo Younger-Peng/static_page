@@ -18,5 +18,16 @@ body {
   font-size: 12px; }
   body > div {
     margin-bottom: 30px; }
+    body > div > .container {
+      margin: 0 auto; }
+
+@media (max-width: 1205px) {
+  body > div > .container {
+    width: 990px;
+    background: yellow; } }
+@media (min-width: 1205px) {
+  body > div > .container {
+    width: 1190px;
+    background: green; } }
 
 /*# sourceMappingURL=reset.css.map */

@@ -1,9 +1,7 @@
-header {
+.banner {
   height: 480px;
-  background: yellow;
-  margin-bottom: 10px; }
-  header .container {
-    background: #ccc; }
+  margin-bottom: 10px;
+  background: #ccc; }
 
 .seckill {
   height: 305px;

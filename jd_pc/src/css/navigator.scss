@@ -1,13 +1,6 @@
-nav.top {
-  @media(max-width: 1205px){
-    .container {width: 990px}
-  }
-  @media(min-width: 1205px){
-    .container {width: 1190px}
-  }
+.top {
   background: #e3e4e5;
   .container {
-    margin: 0 auto;
     height: 30px;
     display: flex;
     line-height: 30px;
@@ -49,7 +42,7 @@ nav.top {
   }
 }
 
-nav.second {
+.second {
   height: 140px;
-  background: red;
+  background: #999;
 }

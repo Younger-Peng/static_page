@@ -1,4 +1,9 @@
-.lovelife .container {
-  background: red; }
+.lovelife {
+  min-height: 523px;
+  background: #ccc; }
+
+.buyfeature {
+  min-height: 195px;
+  background: #ccc; }
 
 /*# sourceMappingURL=lovelife.css.map */

@@ -1,4 +1,5 @@
-.loadmore .container {
-  background: red; }
+.loadmore {
+  min-height: 500px;
+  background: #aaa; }
 
 /*# sourceMappingURL=loadmore.css.map */

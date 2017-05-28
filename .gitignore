@@ -1,6 +1,3 @@
-
-
-
-jd_pc/src/css/*.scss
-
-jd_pc/src/css/*.css.map
+*.DS_Store
+.sass-cache/
+*.css.map

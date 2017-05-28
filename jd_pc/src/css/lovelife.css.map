@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,SAAU;EACR,UAAU,EAAE,KAAK;EACjB,UAAU,EAAE,IAAI;;AAGlB,WAAY;EACV,UAAU,EAAE,KAAK;EACjB,UAAU,EAAE,IAAI",
-"sources": ["lovelife.scss"],
-"names": [],
-"file": "lovelife.css"
-}

@@ -29,6 +29,9 @@ body > div > .container {
   height: 100%;
   margin: 0 auto;
 }
+body a:hover {
+  color: #c81623 !important;
+}
 
 @media (max-width: 1205px) {
   body > div > .container {

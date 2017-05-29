@@ -141,7 +141,33 @@
   width: 790px;
   margin: 14px 0 0 200px;
   height: 40px;
-  background: red;
+  display: flex;
+}
+.second .container .navigator section {
+  position: relative;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.second .container .navigator section.group:after {
+  position: absolute;
+  content: '';
+  width: 1px;
+  height: 13px;
+  background: #999;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.second .container .navigator section a {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 20px;
+  color: #555555;
+}
+.second .container .navigator section a:hover {
+  color: #c81623;
 }
 
 /*# sourceMappingURL=navigator.css.map */

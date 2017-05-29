@@ -1,6 +1,5 @@
 .loadmore {
   min-height: 500px;
-  background: #aaa;
 }
 .loadmore .container {
   display: flex;

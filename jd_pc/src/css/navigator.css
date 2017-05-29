@@ -50,5 +50,98 @@
   margin-bottom: 0;
   background: #999;
 }
+.second .container .search {
+  position: relative;
+  padding-top: 25px;
+  height: 60px;
+  background: #ccc;
+}
+.second .container .search .search-text {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.second .container .search .search-text input {
+  width: 500px;
+  height: 35px;
+  padding: 4px;
+  border: 1px solid red;
+  outline: none;
+}
+.second .container .search .search-text .camera-icon {
+  position: relative;
+  width: 0;
+  height: 35px;
+}
+.second .container .search .search-text .camera-icon i {
+  font-size: 19px;
+  line-height: 35px;
+  position: absolute;
+  left: -30px;
+}
+.second .container .search .search-text .camera-icon i:hover {
+  color: red;
+}
+.second .container .search .search-text .search-icon {
+  display: block;
+  width: 50px;
+  height: 35px;
+  color: white;
+  background: red;
+  text-align: center;
+  line-height: 35px;
+}
+.second .container .search .shopping-cart {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  right: 90px;
+  width: 190px;
+  height: 35px;
+  border: 1px solid #e3e4e5;
+  background: white;
+  color: red;
+}
+.second .container .search .shopping-cart .iconfont {
+  margin-right: 10px;
+}
+.second .container .search .shopping-cart a {
+  color: red;
+}
+.second .container .search .shopping-cart .count {
+  display: table-cell;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 12px;
+  margin-top: -5px;
+  padding: 2px;
+  line-height: 12px;
+  border-radius: 50%;
+  background: red;
+}
+.second .container .hotwords {
+  width: 550px;
+  height: 20px;
+  margin: 6px auto 0 auto;
+  overflow: hidden;
+}
+.second .container .hotwords a {
+  display: inline-block;
+  line-height: 20px;
+  margin-right: 10px;
+  color: #999;
+}
+.second .container .hotwords a:first-child {
+  color: red;
+}
+.second .container .navigator {
+  width: 790px;
+  margin: 14px 0 0 200px;
+  height: 40px;
+  background: red;
+}
 
 /*# sourceMappingURL=navigator.css.map */

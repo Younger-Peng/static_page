@@ -35,6 +35,12 @@ body > div > .container {
     width: 990px;
     background: #c0ffff;
   }
+  body > .second > .container > .search .search-text > input {
+    width: 350px;
+  }
+  body > .second > .container > .hotwords {
+    width: 400px;
+  }
   body > .banner .middle {
     width: 590px;
   }
@@ -63,6 +69,9 @@ body > div > .container {
   body > div > .container > .middle {
     width: 790px;
   }
+}
+::-webkit-input-placeholder {
+  color: #ccc;
 }
 
 /*# sourceMappingURL=reset.css.map */

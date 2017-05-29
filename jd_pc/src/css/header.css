@@ -73,6 +73,7 @@
   width: 390px;
   height: 389px;
   padding: 10px;
+  background: #666;
 }
 .discover .container .goods {
   display: flex;
@@ -105,15 +106,57 @@
   height: 215px;
   background: #999;
 }
+.lottery .container .content {
+  height: 100%;
+  display: flex;
+}
+.lottery .container .content section {
+  flex: 1;
+  border-right: 1px solid #e7e7e7;
+}
 
 .fullwidth {
   height: 100px;
   background: #ccc;
 }
+.fullwidth .container {
+  display: flex;
+}
+.fullwidth .container section {
+  flex: 1;
+  border-right: 1px solid red;
+}
 
 .enjoyfeature {
   height: 585px;
   background: #999;
+}
+.enjoyfeature .container header {
+  height: 55px;
+  font-size: 26px;
+  text-align: center;
+  line-height: 55px;
+}
+.enjoyfeature .container .content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  height: 530px;
+}
+.enjoyfeature .container .content .feature {
+  width: 390px;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+}
+.enjoyfeature .container .content .feature .box {
+  width: 100%;
+  height: 170px;
+  background: red;
+}
+.enjoyfeature .container .content .live {
+  width: 390px;
+  background: green;
 }
 
 /*# sourceMappingURL=header.css.map */

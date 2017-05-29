@@ -37,7 +37,7 @@ body > div > .container {
   body > .banner .middle {
     width: 590px;
   }
-  body > .seckill .content > section:nth-child(5) {
+  body > .shrinkable .content > section:nth-child(5) {
     display: none;
   }
   body > .discover .goods {
@@ -45,6 +45,9 @@ body > div > .container {
   }
   body > .discover .goods .content:after {
     display: none;
+  }
+  body > .enjoyfeature .container .content > .feature {
+    width: 290px;
   }
 }
 @media (min-width: 1205px) {

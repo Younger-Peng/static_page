@@ -50,6 +50,10 @@ body > div > .container {
   body > .enjoyfeature .container .content > .feature {
     width: 290px;
   }
+  body > .loadmore > .container .box {
+    width: 190px;
+    height: 270px;
+  }
 }
 @media (min-width: 1205px) {
   body > div > .container {

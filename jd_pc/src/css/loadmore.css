@@ -1,5 +1,22 @@
 .loadmore {
   min-height: 500px;
-  background: #aaa; }
+  background: #aaa;
+}
+.loadmore .container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.loadmore .container .box {
+  width: 230px;
+  height: 315px;
+  background: #ccc;
+  border: 1px solid transparent;
+  margin-bottom: 10px;
+  padding: 4px;
+}
+.loadmore .container .box:hover {
+  border: 1px solid red;
+}
 
 /*# sourceMappingURL=loadmore.css.map */

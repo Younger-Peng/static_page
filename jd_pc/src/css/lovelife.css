@@ -22,6 +22,10 @@
   width: calc(50% - 5px);
   background: pink;
 }
+.lovelife .container .content .title .tri {
+  width: calc((100% - 20px)/3);
+  background: pink;
+}
 .lovelife .container .content .entity {
   display: flex;
   justify-content: space-between;
@@ -37,12 +41,30 @@
 .lovelife .container .content .entity section.cover {
   background: white;
 }
+.lovelife .container .content .entity section.tri {
+  width: calc((100% - 20px)/3);
+  background: purple;
+}
 
 .buyfeature {
   min-height: 195px;
 }
 .buyfeature .container {
   background: #ccc;
+}
+.buyfeature .container header {
+  height: 55px;
+  text-align: center;
+  font-size: 26px;
+}
+.buyfeature .container .content {
+  display: flex;
+  justify-content: space-between;
+}
+.buyfeature .container .content section {
+  width: calc((100% - 60px)/7);
+  height: 140px;
+  background: red;
 }
 
 /*# sourceMappingURL=lovelife.css.map */

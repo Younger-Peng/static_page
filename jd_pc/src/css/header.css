@@ -11,10 +11,11 @@
 .banner .container .side {
   width: 190px;
   height: 480px;
-  background: #777;
 }
 .banner .container .side.left {
   padding: 16px 0 16px 12px;
+  position: relative;
+  background: #777;
 }
 .banner .container .side.left ul > li {
   height: 28px;
@@ -32,6 +33,116 @@
 .banner .container .side.left ul > li span {
   padding: 0 4px;
 }
+.banner .container .side.left ul > li .expanded {
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 190px;
+  width: 1000px;
+  font-size: 200px;
+  min-height: 480px;
+  background: rgba(255, 0, 0, 0.5);
+}
+.banner .container .side.left ul > li:hover > .expanded {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner .container .side.right {
+  background: #fff;
+}
+.banner .container .side.right .user {
+  height: 116px;
+  padding: 0 15px;
+  border-bottom: 1px solid #e6e6e6;
+}
+.banner .container .side.right .user .express {
+  color: #c9a65b;
+}
+.banner .container .side.right .user .express:hover {
+  color: #c81623;
+}
+.banner .container .side.right .user .user-info {
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+}
+.banner .container .side.right .user .user-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #c9a65b;
+}
+.banner .container .side.right .user .user-info div > p {
+  margin-left: 10px;
+}
+.banner .container .side.right .user .user-info div > p a:last-child {
+  margin-left: 7px;
+}
+.banner .container .side.right .user .user-info div > p:last-child {
+  margin-top: 7px;
+}
+.banner .container .side.right .user .user-profit .button {
+  display: inline-block;
+  text-align: center;
+  line-height: 20px;
+  width: 72px;
+  height: 22px;
+  color: #c81623;
+  border: 2px solid #c81623;
+  font-size: 12px;
+}
+.banner .container .side.right .user .user-profit .button:hover {
+  color: #fff;
+  background: #c81623;
+}
+.banner .container .side.right .news {
+  height: 154px;
+  padding: 0 15px;
+  border-bottom: 1px solid #e6e6e6;
+}
+.banner .container .side.right .news .nav {
+  display: flex;
+  height: 27px;
+  border-bottom: 1px solid #e6e6e6;
+}
+.banner .container .side.right .news .nav li {
+  padding: 0 10px;
+  cursor: pointer;
+  line-height: 26px;
+  border-right: 1px solid #e6e6e6;
+}
+.banner .container .side.right .news .nav li:first-child {
+  padding: 0 10px 0 0;
+}
+.banner .container .side.right .news .nav li:last-child {
+  padding-right: 0;
+  border: none;
+  cursor: default;
+  flex: 1;
+  text-align: right;
+}
+.banner .container .side.right .news .nav li:last-child a:hover {
+  color: #c81623;
+}
+.banner .container .side.right .news .content {
+  position: relative;
+  height: 127px;
+  padding: 12px 0;
+}
+.banner .container .side.right .news .content ul {
+  position: absolute;
+}
+.banner .container .side.right .news .content li {
+  height: 24px;
+  line-height: 24px;
+}
+.banner .container .side.right .news .content li a:hover {
+  color: #c81623;
+}
+.banner .container .side.right .service {
+  height: 210px;
+}
 .banner .container .middle {
   height: 480px;
   display: flex;
@@ -43,11 +154,18 @@
   height: 340px;
   margin-bottom: 10px;
   background: #777;
+  overflow: hidden;
 }
 .banner .container .middle .half {
   width: calc(50% - 5px);
   height: 130px;
   background: #ccc;
+  overflow: hidden;
+}
+.banner .container .middle .half a {
+  display: block;
+  height: 100%;
+  text-align: center;
 }
 
 .seckill {

@@ -29,9 +29,6 @@ body > div > .container {
   height: 100%;
   margin: 0 auto;
 }
-body a:hover {
-  color: #c81623 !important;
-}
 
 @media (max-width: 1205px) {
   body > div > .container {
@@ -43,6 +40,9 @@ body a:hover {
   }
   body > .second > .container > .hotwords {
     width: 400px;
+  }
+  body > .banner .left .expanded {
+    width: 800px !important;
   }
   body > .banner .middle {
     width: 590px;
@@ -75,6 +75,7 @@ body a:hover {
 }
 ::-webkit-input-placeholder {
   color: #ccc;
+  text-align: center;
 }
 
 /*# sourceMappingURL=reset.css.map */

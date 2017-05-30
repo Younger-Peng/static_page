@@ -210,10 +210,15 @@
 }
 .lovelife .container .content .entity section.cover .tall.right .box a {
   position: relative;
+  z-index: 2;
   display: inline-block;
-  padding: 25px 10px 10px 20px;
+  padding: 25px 10px 10px 5px;
   width: 100%;
   height: 100%;
+}
+.lovelife .container .content .entity section.cover .tall.right .box a p {
+  position: relative;
+  z-index: 2;
 }
 .lovelife .container .content .entity section.cover .tall.right .box a p.caption {
   font-size: 14px;
@@ -226,6 +231,7 @@
 }
 .lovelife .container .content .entity section.cover .tall.right .box a img {
   position: absolute;
+  z-index: 1;
   right: 5px;
   bottom: 5px;
   transition: .3s right ease;

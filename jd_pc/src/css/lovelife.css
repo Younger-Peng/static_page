@@ -155,6 +155,48 @@
 }
 .lovelife .container .content .entity section.cover {
   background: white;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-flow: row wrap;
+}
+.lovelife .container .content .entity section.cover .normal {
+  width: calc((100% - 20px)/3);
+  height: 130px;
+  background: green;
+}
+.lovelife .container .content .entity section.cover .tall {
+  height: 260px;
+  background: red;
+}
+.lovelife .container .content .entity section.cover .tall.right {
+  width: calc(2*(100% - 10px)/3);
+  background: yellow;
+  position: relative;
+}
+.lovelife .container .content .entity section.cover .tall.right:before {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  top: 50%;
+  background: #e6e6e6;
+}
+.lovelife .container .content .entity section.cover .tall.right:after {
+  position: absolute;
+  content: '';
+  display: block;
+  height: 100%;
+  width: 1px;
+  left: 50%;
+  background: #e6e6e6;
+}
+.lovelife .container .content .entity section.cover .tall.right .box {
+  width: 50%;
+  height: 50%;
+  float: left;
+  background: pink;
 }
 .lovelife .container .content .entity section.tri {
   width: calc((100% - 20px)/3);

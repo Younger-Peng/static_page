@@ -224,7 +224,47 @@
 }
 .seckill .title {
   height: 55px;
-  background: red;
+  background: #e01222;
+  padding: 0 20px 0 30px;
+}
+.seckill .title p {
+  font-family: arial;
+  height: 100%;
+  line-height: 55px;
+  vertical-align: baseline;
+  float: left;
+  font-size: 26px;
+  color: #fff;
+}
+.seckill .title p a {
+  color: #fff;
+  font-size: 14px;
+}
+.seckill .title p a i {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 3px;
+}
+.seckill .title .timeleft {
+  float: right;
+  height: 100%;
+}
+.seckill .title .timeleft span {
+  font-size: 14px;
+  color: #fff;
+}
+.seckill .title .timeleft strong {
+  display: inline-block;
+  font-size: 24px;
+}
+.seckill .title .timeleft strong.time {
+  margin-top: 9px;
+  width: 35px;
+  text-align: center;
+  line-height: 37px;
+  color: red;
+  background: #440106;
+  border-radius: 3px;
 }
 .seckill .content {
   display: flex;
@@ -232,7 +272,63 @@
   padding: 12px 0 13px 0;
   justify-content: space-between;
 }
-.seckill .content section {
+.seckill .content .carousel {
+  width: calc(100% - 190px);
+  position: relative;
+}
+.seckill .content .carousel ul {
+  display: absolute;
+  width: 100%;
+  background: pink;
+  font-size: 0;
+}
+.seckill .content .carousel ul li {
+  display: inline-block;
+  width: 200px;
+  height: 225px;
+  padding: 0 14px 0 15px;
+}
+.seckill .content .carousel ul li:not(:last-child) {
+  border-right: 1px solid black;
+}
+.seckill .content .carousel ul li .pic {
+  height: 162px;
+  width: 170px;
+  position: relative;
+}
+.seckill .content .carousel ul li .pic img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 15px;
+  transition: bottom .3s ease;
+}
+.seckill .content .carousel ul li:hover > .pic > img {
+  bottom: 30px;
+}
+.seckill .content .carousel ul li .link {
+  height: 32px;
+  font-size: 12px;
+}
+.seckill .content .carousel ul li .link a {
+  color: #999;
+}
+.seckill .content .carousel ul li .link a:hover {
+  color: #c81623;
+}
+.seckill .content .carousel ul li .price {
+  height: 31px;
+}
+.seckill .content .carousel ul li .price .red {
+  color: red;
+}
+.seckill .content .carousel ul li .price strong {
+  font-size: 20px;
+}
+.seckill .content .carousel ul li .price span {
+  font-size: 13px;
+}
+.seckill .content .tab {
   position: relative;
   flex: 1;
   height: 225px;

@@ -297,7 +297,6 @@
 }
 .lovelife .container .content .entity section.tri {
   width: calc((100% - 20px)/3);
-  background: purple;
 }
 
 .buyfeature {

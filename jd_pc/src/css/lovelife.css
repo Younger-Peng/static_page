@@ -201,7 +201,55 @@
 .lovelife .container .content .entity section.cover .logos {
   width: 100%;
   height: 35px;
-  background: red;
+  font-size: 0;
+  position: relative;
+}
+.lovelife .container .content .entity section.cover .logos button {
+  position: absolute;
+  display: none;
+  border: none;
+  outline: none;
+  background: transparent;
+  top: 50%;
+  z-index: 1;
+  transform: translate(0, -50%);
+  cursor: pointer;
+}
+.lovelife .container .content .entity section.cover .logos button i {
+  font-size: 15px;
+  color: #999;
+}
+.lovelife .container .content .entity section.cover .logos button i:hover {
+  color: #c81623;
+}
+.lovelife .container .content .entity section.cover .logos button.prev {
+  left: 0;
+}
+.lovelife .container .content .entity section.cover .logos button.next {
+  right: 0;
+}
+.lovelife .container .content .entity section.cover .logos:hover > button {
+  display: block;
+}
+.lovelife .container .content .entity section.cover .logos ul > li {
+  position: relative;
+  display: inline-block;
+  width: calc(100% / 6);
+  text-align: center;
+}
+.lovelife .container .content .entity section.cover .logos ul > li:after {
+  position: absolute;
+  content: '';
+  right: 0;
+  width: 1px;
+  height: 100%;
+  background: #e6e6e6;
+}
+.lovelife .container .content .entity section.cover .logos ul > li:last-child:after {
+  display: none;
+}
+.lovelife .container .content .entity section.cover .logos ul > li a {
+  display: inline-block;
 }
 .lovelife .container .content .entity section.tri {
   width: calc((100% - 20px)/3);

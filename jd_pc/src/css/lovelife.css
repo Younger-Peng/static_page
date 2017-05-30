@@ -23,21 +23,25 @@
   float: left;
   font-size: 22px;
   line-height: 26px;
-  font-weight: lighter;
+  font-weight: 100;
+  color: #fff;
 }
 .lovelife .container .content .title .row .left .qrcode {
-  width: 26px;
-  height: 26px;
+  width: 20px;
+  height: 20px;
   float: left;
+  margin-top: 3px;
   margin-left: 15px;
-  background: url(../img/qrcode.jpg);
+  background: url(../img/qr.png) no-repeat;
+  background-size: cover;
 }
 .lovelife .container .content .title .row .right {
   float: right;
-  width: calc(100% - 175px);
+  width: calc(100% - 145px);
   height: 100%;
   font-size: 0;
   overflow: hidden;
+  text-align: right;
 }
 .lovelife .container .content .title .row .right .button {
   display: inline-block;
@@ -51,7 +55,19 @@
   border: 1px solid #c187af;
 }
 .lovelife .container .content .title .row .right .button:hover {
-  border-color: white;
+  border-color: white !important;
+}
+.lovelife .container .content .title .row.wander {
+  background: #974676;
+}
+.lovelife .container .content .title .row.wander .right > .button {
+  border-color: #c187af;
+}
+.lovelife .container .content .title .row.beauty {
+  background: #cd375e;
+}
+.lovelife .container .content .title .row.beauty .right > .button {
+  border-color: #de7b95;
 }
 .lovelife .container .content .title .full {
   width: 100%;

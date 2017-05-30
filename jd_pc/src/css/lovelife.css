@@ -69,6 +69,66 @@
 .lovelife .container .content .title .row.beauty .right > .button {
   border-color: #de7b95;
 }
+.lovelife .container .content .title .row.device {
+  background: #78538e;
+}
+.lovelife .container .content .title .row.device .right > .button {
+  border-color: #9e84b1;
+}
+.lovelife .container .content .title .row.phone {
+  background: #5e6c90;
+}
+.lovelife .container .content .title .row.phone .right > .button {
+  border-color: #94a1c0;
+}
+.lovelife .container .content .title .row.digital {
+  background: #488bad;
+}
+.lovelife .container .content .title .row.digital .right > .button {
+  border-color: #77b6c3;
+}
+.lovelife .container .content .title .row.threec {
+  background: #3aaba9;
+}
+.lovelife .container .content .title .row.threec .right > .button {
+  border-color: #6fcfce;
+}
+.lovelife .container .content .title .row.sport {
+  background: #568e7d;
+}
+.lovelife .container .content .title .row.sport .right > .button {
+  border-color: #79aa9e;
+}
+.lovelife .container .content .title .row.food {
+  background: #eeb924;
+}
+.lovelife .container .content .title .row.food .right > .button {
+  border-color: #f9d661;
+}
+.lovelife .container .content .title .row.baby {
+  background: #e16c46;
+}
+.lovelife .container .content .title .row.baby .right > .button {
+  border-color: #ef9f81;
+}
+.lovelife .container .content .title .row.home {
+  background: #a56741;
+}
+.lovelife .container .content .title .row.home .right > .button {
+  border-color: #c19369;
+}
+.lovelife .container .content .title .row.read {
+  background: #756059;
+}
+.lovelife .container .content .title .row.read .right > .button {
+  border-color: #9e8a84;
+}
+.lovelife .container .content .title .row.car {
+  background: #865454;
+}
+.lovelife .container .content .title .row.car .right > .button {
+  border-color: #b48787;
+}
 .lovelife .container .content .title .full {
   width: 100%;
   background: pink;

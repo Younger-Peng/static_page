@@ -151,7 +151,7 @@
 .lovelife .container .content .entity section {
   padding: 10px;
   width: calc(50% - 5px);
-  height: 445px;
+  height: 465px;
 }
 .lovelife .container .content .entity section.cover {
   background: white;
@@ -170,7 +170,7 @@
   background: red;
 }
 .lovelife .container .content .entity section.cover .tall.right {
-  width: calc(2*(100% - 10px)/3);
+  width: calc(2*(100% - 5px)/3);
   background: yellow;
   position: relative;
 }
@@ -197,6 +197,11 @@
   height: 50%;
   float: left;
   background: pink;
+}
+.lovelife .container .content .entity section.cover .logos {
+  width: 100%;
+  height: 35px;
+  background: red;
 }
 .lovelife .container .content .entity section.tri {
   width: calc((100% - 20px)/3);

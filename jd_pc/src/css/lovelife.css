@@ -160,10 +160,24 @@
   align-content: space-between;
   flex-flow: row wrap;
 }
+.lovelife .container .content .entity section.cover .moveleft {
+  position: relative;
+  overflow: hidden;
+}
+.lovelife .container .content .entity section.cover .moveleft a {
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  transition: .3s left ease;
+}
+.lovelife .container .content .entity section.cover .moveleft:hover a {
+  left: -10px;
+}
 .lovelife .container .content .entity section.cover .normal {
   width: calc((100% - 20px)/3);
   height: 130px;
   background: green;
+  overflow: hidden;
 }
 .lovelife .container .content .entity section.cover .tall {
   height: 260px;

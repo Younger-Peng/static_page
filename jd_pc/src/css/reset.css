@@ -41,6 +41,9 @@ body > div > .container {
   body > .second > .container > .hotwords {
     width: 400px;
   }
+  body > .seckill > .container .content .tab > li:nth-child(4) {
+    display: none;
+  }
   body > .banner .left .expanded {
     width: 800px !important;
   }

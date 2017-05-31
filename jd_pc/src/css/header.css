@@ -270,14 +270,44 @@
   display: flex;
   flex-flow: row nowrap;
   padding: 12px 0 13px 0;
+  height: 250px;
   justify-content: space-between;
 }
 .seckill .content .carousel {
   width: calc(100% - 190px);
   position: relative;
+  height: 225px;
+}
+.seckill .content .carousel button {
+  position: absolute;
+  display: none;
+  border: none;
+  outline: none;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.2);
+  top: 50%;
+  z-index: 1;
+  transform: translate(0, -50%);
+  cursor: pointer;
+}
+.seckill .content .carousel button i {
+  font-size: 15px;
+  color: #999;
+}
+.seckill .content .carousel button i:hover {
+  color: #c81623;
+}
+.seckill .content .carousel button.prev {
+  left: 5px;
+}
+.seckill .content .carousel button.next {
+  right: 5px;
+}
+.seckill .content .carousel:hover > button {
+  display: block;
 }
 .seckill .content .carousel ul {
-  display: absolute;
+  position: absolute;
   width: 100%;
   background: pink;
   font-size: 0;
@@ -327,13 +357,6 @@
 }
 .seckill .content .carousel ul li .price span {
   font-size: 13px;
-}
-.seckill .content .tab {
-  position: relative;
-  flex: 1;
-  height: 225px;
-  background: #777;
-  border-right: 1px solid #e7e7e7;
 }
 
 .discover {

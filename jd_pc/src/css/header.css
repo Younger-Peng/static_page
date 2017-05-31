@@ -284,7 +284,7 @@
   border: none;
   outline: none;
   height: 50px;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.1);
   top: 50%;
   z-index: 1;
   transform: translate(0, -50%);
@@ -293,9 +293,6 @@
 .seckill .content .carousel button i {
   font-size: 15px;
   color: #999;
-}
-.seckill .content .carousel button i:hover {
-  color: #c81623;
 }
 .seckill .content .carousel button.prev {
   left: 5px;
@@ -309,7 +306,6 @@
 .seckill .content .carousel ul {
   position: absolute;
   width: 100%;
-  background: pink;
   font-size: 0;
 }
 .seckill .content .carousel ul li {
@@ -319,7 +315,7 @@
   padding: 0 14px 0 15px;
 }
 .seckill .content .carousel ul li:not(:last-child) {
-  border-right: 1px solid black;
+  border-right: 1px solid #e7e7e7;
 }
 .seckill .content .carousel ul li .pic {
   height: 162px;
@@ -357,6 +353,9 @@
 }
 .seckill .content .carousel ul li .price span {
   font-size: 13px;
+}
+.seckill .content .kinds a {
+  float: right;
 }
 
 .discover {

@@ -354,6 +354,9 @@
 .seckill .content .carousel ul li .price span {
   font-size: 13px;
 }
+.seckill .content .kinds {
+  padding: 0 5px;
+}
 .seckill .content .kinds a {
   float: right;
 }

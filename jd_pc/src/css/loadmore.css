@@ -5,17 +5,38 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  background: #eee;
 }
 .loadmore .container .box {
   width: 230px;
   height: 315px;
-  background: #ccc;
   border: 1px solid transparent;
   margin-bottom: 10px;
   padding: 4px;
+  background: #fff;
 }
 .loadmore .container .box:hover {
   border: 1px solid red;
+}
+.loadmore .container .box:hover p {
+  color: #c81623;
+}
+.loadmore .container .box img {
+  width: 100%;
+}
+.loadmore .container .box p {
+  width: 100%;
+  height: 51px;
+  padding: 10px 10px 0 10px;
+  margin-bottom: 5px;
+  color: #666666;
+  font-size: 13px;
+  line-height: 20px;
+  overflow: hidden;
+}
+.loadmore .container .box span {
+  padding: 0 10px;
+  color: #c81623;
 }
 
 /*# sourceMappingURL=loadmore.css.map */

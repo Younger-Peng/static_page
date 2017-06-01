@@ -10,7 +10,8 @@
 }
 
 ul,
-ol {
+ol,
+li {
   list-style: none;
 }
 
@@ -56,8 +57,14 @@ body > div > .container {
   body > .discover .goods {
     width: 190px !important;
   }
+  body > .discover .goods .title > a {
+    display: none !important;
+  }
   body > .discover .goods .content:after {
     display: none;
+  }
+  body > .discover .goods .box:nth-child(3) {
+    border-bottom: none !important;
   }
   body > .enjoyfeature .container .content > .feature {
     width: 290px;

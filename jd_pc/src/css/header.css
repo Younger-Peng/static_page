@@ -388,12 +388,30 @@
   width: 100%;
   height: 55px;
   background: #bbb;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 20px 10px 30px;
+  color: #fff;
+}
+.discover .container section .title p {
+  font-size: 26px;
+}
+.discover .container section .title a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+}
+.discover .container section .title a i {
+  margin-left: 5px;
+  font-size: 20px;
 }
 .discover .container section .content {
   width: 390px;
   height: 389px;
   padding: 10px;
-  background: #666;
+  background: #ccc;
 }
 .discover .container .goods {
   display: flex;
@@ -409,9 +427,29 @@
   overflow: hidden;
 }
 .discover .container .goods .content .box {
+  display: block;
+  position: relative;
+  padding: 10px 0 0 10px;
   width: 185px;
-  height: 120px;
+  height: 123px;
   border-bottom: 1px solid #e7e7e7;
+}
+.discover .container .goods .content .box .left {
+  font-size: 14px;
+  line-height: 20px;
+  width: 70px;
+}
+.discover .container .goods .content .box img {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  transition: right .3s ease;
+}
+.discover .container .goods .content .box:hover > img {
+  right: 10px;
+}
+.discover .container .goods .content .box:nth-child(5), .discover .container .goods .content .box:nth-child(6) {
+  border-bottom: none;
 }
 .discover .container .goods .content:after {
   position: absolute;
@@ -419,7 +457,57 @@
   content: '';
   width: 1px;
   height: 369px;
+  background: #e7e7e7;
+}
+.discover .container .album .title {
+  background: #76488e;
+}
+.discover .container .album .content .pages {
+  height: 340px;
+  position: relative;
+}
+.discover .container .album .content .pages > div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.discover .container .album .content .pages > div > a {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 100%;
+  height: 50%;
+  padding-top: 10px;
+}
+.discover .container .album .content .pages > div > a:first-child {
+  border-bottom: 1px solid #e7e7e7;
+}
+.discover .container .album .content .pages > div > a p {
+  color: #fff;
+  width: 100%;
+  height: 31px;
+  font-size: 14px;
+}
+.discover .container .album .content .pages > div > a .box {
+  width: 110px;
+  height: 100px;
   background: red;
+}
+.discover .container .album .content .bars {
+  display: flex;
+  justify-content: center;
+}
+.discover .container .album .content .bars li {
+  width: 8px;
+  height: 8px;
+  color: #c8c8c8;
+  background: red;
+  border-radius: 50%;
+  margin: 0 7px;
+  cursor: pointer;
+}
+.discover .container .rank .title {
+  background: #e77005;
 }
 
 .lottery {

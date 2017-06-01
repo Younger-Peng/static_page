@@ -319,29 +319,30 @@
   border-right: 1px solid #e7e7e7;
 }
 .seckill .content .carousel ul li .pic {
-  height: 162px;
+  height: 194px;
   width: 170px;
-  position: relative;
 }
 .seckill .content .carousel ul li .pic img {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 15px;
+  position: relative;
+  bottom: 0;
+  margin: 16px 20px;
   transition: bottom .3s ease;
 }
-.seckill .content .carousel ul li:hover > .pic > img {
-  bottom: 30px;
-}
-.seckill .content .carousel ul li .link {
+.seckill .content .carousel ul li .pic .link {
   height: 32px;
   font-size: 12px;
 }
-.seckill .content .carousel ul li .link a {
+.seckill .content .carousel ul li .pic .link a {
   color: #999;
 }
-.seckill .content .carousel ul li .link a:hover {
+.seckill .content .carousel ul li .pic:hover {
+  cursor: pointer;
+}
+.seckill .content .carousel ul li .pic:hover .link > a {
   color: #c81623;
+}
+.seckill .content .carousel ul li .pic:hover > img {
+  bottom: 10px;
 }
 .seckill .content .carousel ul li .price {
   height: 31px;

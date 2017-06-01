@@ -468,8 +468,12 @@
 }
 .discover .container .album .content .pages > div {
   position: absolute;
+  display: none;
   width: 100%;
   height: 100%;
+}
+.discover .container .album .content .pages > div.active {
+  display: block;
 }
 .discover .container .album .content .pages > div > a {
   display: flex;
@@ -478,6 +482,7 @@
   width: 100%;
   height: 50%;
   padding-top: 10px;
+  cursor: pointer;
 }
 .discover .container .album .content .pages > div > a:first-child {
   border-bottom: 1px solid #e7e7e7;

@@ -618,7 +618,8 @@
 .fullwidth .container {
   display: flex;
 }
-.fullwidth .container section {
+.fullwidth .container a {
+  display: block;
   flex: 1;
   border-right: 1px solid red;
 }

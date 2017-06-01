@@ -561,6 +561,9 @@
 .discover .container .rank .content .nav li:not(:last-child) {
   border-right: 1px solid;
 }
+.discover .container .rank .content .nav li:hover > a {
+  color: #c81623;
+}
 .discover .container .rank .content .boxes {
   position: relative;
   display: flex;

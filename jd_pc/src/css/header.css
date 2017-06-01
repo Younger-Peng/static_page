@@ -699,7 +699,56 @@
 }
 .enjoyfeature .container .content .live {
   width: 390px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.enjoyfeature .container .content .live a {
+  display: block;
+}
+.enjoyfeature .container .content .live .video {
+  width: 390px;
+  height: 350px;
+  background: red;
+}
+.enjoyfeature .container .content .live .box {
+  position: relative;
+  width: 190px;
+  height: 170px;
+  background: red;
+  overflow: hidden;
+}
+.enjoyfeature .container .content .live .box .description {
+  height: 80px;
+  width: 100%;
+  padding-top: 10px;
   background: green;
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+}
+.enjoyfeature .container .content .live .box .description p {
+  width: 100px;
+  margin: 0 auto;
+  font-size: 16px;
+  text-align: center;
+}
+.enjoyfeature .container .content .live .box .description .title {
+  height: 34px;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  line-height: 30px;
+  margin-bottom: 8px;
+}
+.enjoyfeature .container .content .live .box img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: left .3s ease;
+}
+.enjoyfeature .container .content .live .box:hover > img {
+  left: -10px;
 }
 
 /*# sourceMappingURL=header.css.map */

@@ -336,10 +336,30 @@
   display: flex;
   justify-content: space-between;
 }
-.buyfeature .container .content section {
+.buyfeature .container .content > a {
+  position: relative;
+  display: block;
   width: calc((100% - 60px)/7);
   height: 140px;
-  background: red;
+}
+.buyfeature .container .content > a .description {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 10px 0 10px 0;
+  color: #fff;
+  text-align: center;
+}
+.buyfeature .container .content > a .description h3 {
+  font-size: 24px;
+  line-height: 24px;
+}
+.buyfeature .container .content > a .description p {
+  font-size: 13px;
+  line-height: 16px;
+}
+.buyfeature .container .content > a .description.court {
+  background: #916c57;
 }
 
 /*# sourceMappingURL=lovelife.css.map */

@@ -49,8 +49,6 @@ function waterfall(){
   window.addEventListener('scroll', function(){
     scrollHeight = document.body.scrollTop;
     offsetTop = empty.offsetTop;
-    console.log(scrollHeight + windowHeight)
-    console.log(offsetTop)
     if(scrollHeight + windowHeight > offsetTop){
       waterfall()
     }

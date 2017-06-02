@@ -58,6 +58,9 @@ body > div > .container > .header:after {
   height: 0;
   border: 1px dashed #ccc;
 }
+body > #empty {
+  height: 10px;
+}
 
 @media (max-width: 1205px) {
   body > div > .container {

@@ -69,6 +69,9 @@ body > #empty {
   body > .second > .container > .search .search-text > input {
     width: 350px;
   }
+  body > .second > .container > .search.fixed > div {
+    width: 990px;
+  }
   body > .second > .container > .hotwords {
     width: 400px;
   }
@@ -110,6 +113,10 @@ body > #empty {
   }
   body > div > .container > .middle {
     width: 790px;
+  }
+
+  body > .second > .container > .search.fixed > div {
+    width: 1190px;
   }
 }
 ::-webkit-input-placeholder {

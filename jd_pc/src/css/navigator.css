@@ -126,11 +126,23 @@
   padding-top: 7px;
   width: 100%;
   background: #fff;
-  top: 0;
+  top: -52px;
   left: 0;
   height: 50px;
   border-bottom: 2px solid #f10214;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  transition: .3s top ease;
+}
+.second .container .search.fixed .search-text {
+  position: relative;
+}
+.second .container .search.fixed .search-text img {
+  position: absolute;
+  left: 0;
+}
+.second .container .search.fixed .search-text input {
+  border: none;
+  background: #eee;
 }
 .second .container .hotwords {
   width: 550px;

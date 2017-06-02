@@ -44,6 +44,8 @@ function waterfall(){
   let offsetHeight = empty.offsetHeight;
   let offsetTop;
   let scrollHeight;
+  //顶部固定搜索栏
+  let fixedSearch = document.querySelector('.search.fixed');
   window.addEventListener('scroll', function(){
     scrollHeight = document.body.scrollTop;
     offsetTop = empty.offsetTop;
@@ -52,5 +54,14 @@ function waterfall(){
     if(scrollHeight + windowHeight > offsetTop){
       waterfall()
     }
+
+    //当body滚动距离超过660px时，固定搜索栏出现，反之消失
+    if(scrollHeight >= 660) {
+      fixedSearch.style.top = 0;
+    }
+    if(scrollHeight < 660) {
+      fixedSearch.style.top = '-52px';
+    }
+
   })
 })()

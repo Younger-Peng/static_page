@@ -129,17 +129,32 @@
 .lovelife .container .content .title > .row.car .right > .button {
   border-color: #b48787;
 }
+.lovelife .container .content .title > .row.lovegame {
+  background: #6467a0;
+}
+.lovelife .container .content .title > .row.lovegame .right > .button {
+  border-color: #9598cd;
+}
+.lovelife .container .content .title > .row.travel {
+  background: #5981a3;
+}
+.lovelife .container .content .title > .row.travel .right > .button {
+  border-color: #82a5bc;
+}
+.lovelife .container .content .title > .row.finance {
+  background: #5a7259;
+}
+.lovelife .container .content .title > .row.finance .right > .button {
+  border-color: #78977a;
+}
 .lovelife .container .content .title .full {
   width: 100%;
-  background: pink;
 }
 .lovelife .container .content .title .half {
   width: calc(50% - 5px);
-  background: pink;
 }
 .lovelife .container .content .title .tri {
   width: calc((100% - 20px)/3);
-  background: pink;
 }
 .lovelife .container .content .entity {
   display: flex;
@@ -297,6 +312,18 @@
 }
 .lovelife .container .content .entity section.tri {
   width: calc((100% - 20px)/3);
+}
+.lovelife .container .content .entity section.tri .normal {
+  width: calc((100% - 10px)/2) !important;
+}
+.lovelife .container .content .entity section.tri .tall.right {
+  width: calc((100% - 10px)/2);
+}
+.lovelife .container .content .entity section.tri .tall.right .box {
+  width: 100%;
+}
+.lovelife .container .content .entity section.tri .tall.right:after {
+  display: none;
 }
 
 .buyfeature {

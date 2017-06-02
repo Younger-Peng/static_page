@@ -600,10 +600,79 @@
 .lottery .container .content {
   height: 100%;
   display: flex;
+  background: #fff;
 }
-.lottery .container .content section {
+.lottery .container .content a {
+  position: relative;
+  display: block;
   flex: 1;
   border-right: 1px solid #e7e7e7;
+}
+.lottery .container .content a .left-cover {
+  position: absolute;
+  z-index: 3;
+  top: 15px;
+  left: 15px;
+  width: 100px;
+  height: 180px;
+  border-top: 3px solid red;
+  padding-top: 7px;
+  background: #fff;
+}
+.lottery .container .content a .left-cover h3 {
+  font-size: 34px;
+  height: 36px;
+  line-height: 36px;
+  color: red;
+}
+.lottery .container .content a .left-cover h3 span {
+  font-size: 12px;
+  padding-right: 3px;
+}
+.lottery .container .content a .left-cover p {
+  height: 42px;
+  padding: 3px;
+  font-size: 13px;
+  color: red;
+  line-height: 18px;
+}
+.lottery .container .content a .left-cover .dashed {
+  height: 0;
+  border: 1px dashed #e7e7e7;
+}
+.lottery .container .content a .left-cover .coupon_limit {
+  height: 64px;
+  padding: 14px 10px;
+  color: #666;
+  background: #e7e7e7;
+  line-height: 18px;
+}
+.lottery .container .content a .left-cover .more_coupon {
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  background: red;
+  color: #fff;
+}
+.lottery .container .content a .shadow {
+  position: absolute;
+  z-index: 2;
+  width: 30px;
+  height: 100px;
+  left: 85px;
+  top: 40px;
+  background: red;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+}
+.lottery .container .content a img {
+  position: absolute;
+  z-index: 1;
+  top: 25px;
+  left: 44px;
+  transition: .3s left ease;
+}
+.lottery .container .content a:hover > img {
+  left: 54px;
 }
 
 .fullwidth {

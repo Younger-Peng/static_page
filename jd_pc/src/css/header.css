@@ -512,7 +512,7 @@
   border-bottom: 1px solid #e7e7e7;
 }
 .discover .container .album .content .pages > div > a p {
-  color: #fff;
+  color: #666666;
   width: 100%;
   height: 31px;
   font-size: 14px;
@@ -520,7 +520,7 @@
 .discover .container .album .content .pages > div > a .box {
   width: 110px;
   height: 100px;
-  background: red;
+  background: url(../img/random110x100.png) no-repeat center center;
 }
 .discover .container .album .content .bars {
   display: flex;
@@ -530,7 +530,7 @@
   width: 8px;
   height: 8px;
   color: #c8c8c8;
-  background: red;
+  background: #e7e7e7;
   border-radius: 50%;
   margin: 0 7px;
   cursor: pointer;
@@ -542,7 +542,7 @@
   width: 100%;
   height: 22px;
   display: flex;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #e7e7e7;
 }
 .discover .container .rank .content .nav li {
   flex: 1;
@@ -555,7 +555,7 @@
   line-height: 18px;
 }
 .discover .container .rank .content .nav li:not(:last-child) {
-  border-right: 1px solid;
+  border-right: 1px solid #e7e7e7;
 }
 .discover .container .rank .content .nav li:hover > a {
   color: #c81623;
@@ -573,7 +573,7 @@
   top: 50%;
   width: 100%;
   height: 1px;
-  background: black;
+  background: #e7e7e7;
 }
 .discover .container .rank .content .boxes .box {
   width: calc(100% / 3);
@@ -591,7 +591,7 @@
   color: #c81623;
 }
 .discover .container .rank .content .boxes .box:not(:nth-child(3n)) {
-  border-right: 1px solid green;
+  border-right: 1px solid #e7e7e7;
 }
 
 .lottery {
@@ -771,6 +771,7 @@
 .enjoyfeature .container .content .feature .box .left p {
   width: 100px;
   margin: 0 auto;
+  color: #fff;
 }
 .enjoyfeature .container .content .feature .box .left .title {
   font-size: 22px;
@@ -788,11 +789,20 @@
 .enjoyfeature .container .content .feature .box.new > .left {
   background: #66B687;
 }
-.enjoyfeature .container .content .feature .box.new > .big {
-  background: #66B687;
+.enjoyfeature .container .content .feature .box.big > .left {
+  background: #534b5d;
 }
-.enjoyfeature .container .content .feature .box.new > .super {
-  background: #66B687;
+.enjoyfeature .container .content .feature .box.super > .left {
+  background: #d58717;
+}
+.enjoyfeature .container .content .feature .box.wander > .left {
+  background: #DBCF6E;
+}
+.enjoyfeature .container .content .feature .box.digital > .left {
+  background: #3b838c;
+}
+.enjoyfeature .container .content .feature .box.owe > .left {
+  background: #7e5944;
 }
 .enjoyfeature .container .content .feature .box img {
   position: absolute;
@@ -944,14 +954,20 @@
   height: 80px;
   width: 100%;
   padding-top: 10px;
-  background: green;
   position: absolute;
   bottom: 0;
   z-index: 2;
 }
+.enjoyfeature .container .content .live .box .description.design {
+  background: rgba(169, 57, 49, 0.9);
+}
+.enjoyfeature .container .content .live .box .description.milk {
+  background: rgba(100, 38, 99, 0.9);
+}
 .enjoyfeature .container .content .live .box .description p {
   width: 100px;
   margin: 0 auto;
+  color: #fff;
   font-size: 16px;
   text-align: center;
 }

@@ -78,7 +78,7 @@ body > div > .container > .header:after {
   body > .banner .middle {
     width: 590px;
   }
-  body > .shrinkable .content > section:nth-child(5) {
+  body > .shrinkable .content > a:nth-child(5) {
     display: none;
   }
   body > .discover .goods {

@@ -325,6 +325,9 @@
 .lovelife .container .content .entity section.tri .tall.right:after {
   display: none;
 }
+.lovelife .container .content .entity section.tri .logos > ul > li {
+  width: 25%;
+}
 
 .buyfeature {
   min-height: 195px;

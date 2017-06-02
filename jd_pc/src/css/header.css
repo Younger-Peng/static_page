@@ -730,6 +730,7 @@
 .fullwidth .container a {
   display: block;
   flex: 1;
+  overflow: hidden;
 }
 
 .enjoyfeature {

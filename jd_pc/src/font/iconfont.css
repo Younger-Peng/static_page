@@ -1,10 +1,10 @@
 
 @font-face {font-family: "iconfont";
-  src: url('iconfont.eot?t=1496123247558'); /* IE9*/
-  src: url('iconfont.eot?t=1496123247558#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('iconfont.woff?t=1496123247558') format('woff'), /* chrome, firefox */
-  url('iconfont.ttf?t=1496123247558') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('iconfont.svg?t=1496123247558#iconfont') format('svg'); /* iOS 4.1- */
+  src: url('iconfont.eot?t=1496379955265'); /* IE9*/
+  src: url('iconfont.eot?t=1496379955265#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1496379955265') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1496379955265') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1496379955265#iconfont') format('svg'); /* iOS 4.1- */
 }
 
 .iconfont {
@@ -26,6 +26,8 @@
 .icon-iconplane:before { content: "\e601"; }
 
 .icon-next:before { content: "\e61e"; }
+
+.icon-play:before { content: "\e61c"; }
 
 .icon-chips:before { content: "\e7cf"; }
 

@@ -606,6 +606,8 @@
   position: relative;
   display: block;
   flex: 1;
+}
+.lottery .container .content a:not(:last-child) {
   border-right: 1px solid #e7e7e7;
 }
 .lottery .container .content a .left-cover {
@@ -728,7 +730,6 @@
 .fullwidth .container a {
   display: block;
   flex: 1;
-  border-right: 1px solid red;
 }
 
 .enjoyfeature {
@@ -814,9 +815,123 @@
   display: block;
 }
 .enjoyfeature .container .content .live .video {
+  position: relative;
   width: 390px;
   height: 350px;
   background: red;
+}
+.enjoyfeature .container .content .live .video header {
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  height: 38px;
+  padding: 0 15px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.57);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.enjoyfeature .container .content .live .video header h3 {
+  font-size: 16px;
+}
+.enjoyfeature .container .content .live .video header span {
+  vertical-align: middle;
+  font-size: 13px;
+}
+.enjoyfeature .container .content .live .video header span i {
+  vertical-align: middle;
+  margin-left: 10px;
+  font-size: 20px;
+}
+.enjoyfeature .container .content .live .video .imgs {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.enjoyfeature .container .content .live .video .imgs li {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.enjoyfeature .container .content .live .video .imgs li .cover {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+.enjoyfeature .container .content .live .video .imgs li img {
+  height: 100%;
+}
+.enjoyfeature .container .content .live .video .imgs li .description {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  bottom: 40px;
+  color: #fff;
+  text-align: center;
+}
+.enjoyfeature .container .content .live .video .imgs li .description h4 {
+  height: 27px;
+  line-height: 27px;
+  font-size: 16px;
+}
+.enjoyfeature .container .content .live .video .imgs li .description p {
+  height: 24px;
+  line-height: 24px;
+  font-size: 14px;
+}
+.enjoyfeature .container .content .live .video .icon-play {
+  position: absolute;
+  z-index: 5;
+  color: #fff;
+  font-size: 60px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.enjoyfeature .container .content .live .video button {
+  position: absolute;
+  z-index: 6;
+  border: none;
+  outline: none;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.3);
+  top: 50%;
+  transform: translate(0, -50%);
+  cursor: pointer;
+}
+.enjoyfeature .container .content .live .video button i {
+  font-size: 15px;
+  color: #fff;
+}
+.enjoyfeature .container .content .live .video button.prev {
+  left: 0;
+}
+.enjoyfeature .container .content .live .video button.next {
+  right: 0;
+}
+.enjoyfeature .container .content .live .video button:hover > i {
+  color: #c81623;
+}
+.enjoyfeature .container .content .live .video .bars {
+  position: absolute;
+  z-index: 5;
+  width: 100%;
+  bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+.enjoyfeature .container .content .live .video .bars li {
+  width: 8px;
+  height: 8px;
+  margin: 4px;
+  border-radius: 50%;
+  background: #fff;
 }
 .enjoyfeature .container .content .live .box {
   position: relative;

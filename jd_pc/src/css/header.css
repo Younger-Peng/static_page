@@ -674,6 +674,49 @@
 .lottery .container .content a:hover > img {
   left: 54px;
 }
+.lottery .container .content .lottery-center {
+  flex: 1;
+  background: #ea3524;
+}
+.lottery .container .content .lottery-center > * {
+  margin: 0 25px;
+}
+.lottery .container .content .lottery-center h3 {
+  color: #fff;
+  margin-top: 25px;
+  font-size: 30px;
+  line-height: 36px;
+  height: 36px;
+}
+.lottery .container .content .lottery-center .line {
+  margin-top: 8px;
+  margin-bottom: 20px;
+  width: 55px;
+  height: 3px;
+  background: #fff;
+}
+.lottery .container .content .lottery-center p {
+  height: 40px;
+  line-height: 20px;
+  font-size: 13px;
+  color: #fff;
+}
+.lottery .container .content .lottery-center .button {
+  margin-top: 20px;
+  width: 140px;
+  height: 30px;
+  line-height: 26px;
+  color: #fff;
+  border: 2px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lottery .container .content .lottery-center .button i {
+  font-weight: bold;
+  margin-left: 10px;
+  font-size: 20px;
+}
 
 .fullwidth {
   height: 100px;

@@ -48,13 +48,11 @@
 .second {
   height: 140px;
   margin-bottom: 0;
-  background: #999;
 }
 .second .container .search {
   position: relative;
   padding-top: 25px;
   height: 60px;
-  background: #ccc;
 }
 .second .container .search .search-text {
   margin: 0 auto;

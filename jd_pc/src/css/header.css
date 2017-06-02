@@ -2,7 +2,6 @@
 .banner {
   height: 480px;
   margin-bottom: 10px;
-  background: #ccc;
 }
 .banner .container {
   display: flex;
@@ -220,7 +219,6 @@
 
 .seckill {
   height: 305px;
-  background: #999;
 }
 .seckill .title {
   height: 55px;
@@ -374,7 +372,6 @@
 
 .discover {
   height: 444px;
-  background: #ccc;
 }
 .discover .container {
   display: flex;
@@ -387,7 +384,6 @@
 .discover .container section .title {
   width: 100%;
   height: 55px;
-  background: #bbb;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -411,7 +407,7 @@
   width: 390px;
   height: 389px;
   padding: 10px;
-  background: #ccc;
+  background: #fff;
 }
 .discover .container .goods {
   display: flex;
@@ -600,7 +596,6 @@
 
 .lottery {
   height: 215px;
-  background: #999;
 }
 .lottery .container .content {
   height: 100%;
@@ -613,7 +608,7 @@
 
 .fullwidth {
   height: 100px;
-  background: #ccc;
+  background: #e0e0e0;
 }
 .fullwidth .container {
   display: flex;
@@ -626,7 +621,6 @@
 
 .enjoyfeature {
   height: 585px;
-  background: #999;
 }
 .enjoyfeature .container header {
   height: 55px;

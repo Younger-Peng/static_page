@@ -1,7 +1,7 @@
 .lovelife {
   min-height: 523px;
 }
-.lovelife .container header {
+.lovelife .container .header {
   height: 35px;
   margin-bottom: 20px;
 }
@@ -301,14 +301,6 @@
 
 .buyfeature {
   min-height: 195px;
-}
-.buyfeature .container {
-  background: #ccc;
-}
-.buyfeature .container header {
-  height: 55px;
-  text-align: center;
-  font-size: 26px;
 }
 .buyfeature .container .content {
   display: flex;

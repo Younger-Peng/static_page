@@ -1,3 +1,19 @@
+//检测用户浏览器是否为手机端
+(function(){
+  var userAgentInfo=navigator.userAgent; 
+  var Agents =new Array("Android","iPhone","SymbianOS","Windows Phone","iPad","iPod"); 
+  var flag=false;
+  for(var i=0;i<Agents.length;i++) { 
+    if(userAgentInfo.indexOf(Agents[i])>0) { 
+      flag=true; 
+      break; 
+    } 
+  } 
+  if(flag){
+    document.querySelector('.cover').style.display = 'none'
+  }
+})();
+
 (function(){
   let pageWidth = document.documentElement.clientWidth;
   let style = document.createElement('style')
@@ -13,6 +29,17 @@
     document.querySelector('.top').style.background = 'rgba(255,0,0,'+ n +')'
   })
 
+  window.addEventListener('scroll', function(e){
+    const emptyBox = document.querySelector('.empty');
+    let scrollTop = document.body.scrollTop
+    const windowHeight = window.innerHeight;
+    let offsetTop = emptyBox.offsetTop;
+    const selfHeight = parseInt(getComputedStyle(emptyBox).height);
+    let pos = offsetTop - scrollTop - windowHeight + selfHeight;
+    if(pos <= 0) {
+      waterfall();
+    }
+  })
   window.addEventListener('scroll', function(e){
     const emptyBox = document.querySelector('.empty');
     let scrollTop = document.body.scrollTop

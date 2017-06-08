@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .lovelife {
   min-height: 523px;
 }
@@ -349,9 +350,12 @@
   padding: 10px 0 10px 0;
   color: #fff;
   text-align: center;
+  font-family: 'Microsoft YaHei', '兰亭黑-简', sans-serif;
+  opacity: 0.9;
 }
 .buyfeature .container .content > a .description h3 {
-  font-size: 24px;
+  font-size: 20px;
+  font-weight: 100;
   line-height: 24px;
 }
 .buyfeature .container .content > a .description p {
@@ -360,6 +364,24 @@
 }
 .buyfeature .container .content > a .description.court {
   background: #916c57;
+}
+.buyfeature .container .content > a .description.fashion {
+  background: #7E6285;
+}
+.buyfeature .container .content > a .description.brand {
+  background: #CE4040;
+}
+.buyfeature .container .content > a .description.health {
+  background: #459263;
+}
+.buyfeature .container .content > a .description.baby {
+  background: #DC694F;
+}
+.buyfeature .container .content > a .description.enterprise {
+  background: #5C90B6;
+}
+.buyfeature .container .content > a .description.in {
+  background: #D7BF1D;
 }
 
 /*# sourceMappingURL=lovelife.css.map */
